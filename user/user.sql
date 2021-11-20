@@ -1,6 +1,5 @@
 CREATE SCHEMA users;
 
-
 CREATE TABLE IF NOT EXISTS users.user_information(
     id SERIAL NOT NULL,
     user_uuid VARCHAR(36) NOT NULL UNIQUE,
